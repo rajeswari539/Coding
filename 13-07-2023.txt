@@ -1,0 +1,27 @@
+PALINDROME
+==========
+n = input("Enter a number:")
+print(n[::-1])
+
+out
+-----------
+Enter a number:
+
+
+
+
+
+PALIDROME
+===============
+
+n = input("Enter a number:")
+
+if n == n[::-1]:
+	print(n,"is palidrom")
+	else:
+		print(n,"is not palidrome")	
+
+output
+-------------
+Enter a number:101
+101 is palidrome
