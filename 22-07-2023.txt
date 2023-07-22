@@ -1,0 +1,13 @@
+FIND OUT 4WHEELER AND 2WHEELER
+=======================================
+w = 540
+v = 200
+tw = ((4*v)-w)//2
+fw = v-tw
+print(tw,"two wheelers")
+print(fw,"four wheelers")
+
+OUTPUT
+========================
+130 two wheelers
+70 four wheelers
