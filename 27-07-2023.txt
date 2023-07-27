@@ -1,0 +1,26 @@
+SPLIT MULTIPLE DIGITS
+==============================
+
+
+n1 = [539,538,537]
+
+s = ""
+
+for i in  n1:
+
+    s += str(i)
+
+res=[]
+
+for i in  s:
+
+    res.append(int(i))
+
+print(res)
+
+
+
+
+OUTPUT
+==================
+[5,3,9,5,3,8,5,3,7]
