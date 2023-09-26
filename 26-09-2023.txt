@@ -1,0 +1,30 @@
+
+In string repeated letters
+
+
+
+
+s="Rajeswari Kasireddy".lower()
+r=[]
+for i in s:
+  if i.isalnum():
+    r.append(i)
+for i in set(r):
+  print(i,"=",s.count(i))
+
+
+
+
+
+output:
+
+e = 2
+w = 1
+k = 1
+y = 1
+s = 2
+j = 1
+a = 3
+i = 2
+r = 3
+d = 2
